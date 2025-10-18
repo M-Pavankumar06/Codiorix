@@ -1,23 +1,28 @@
 {
-  "name": "codiorixweb",
+  "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/server.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "npm run start --prefix backend "
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/M-Pavankumar06/Codiorix.git"
+    "start": "nodemon backend/src/server.js",
+    "dev": "nodemon backend/src/server.js",
+    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
-  "author": "M Pavan Kumar",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/M-Pavankumar06/Codiorix/issues"
-  },
-  "homepage": "https://github.com/M-Pavankumar06/Codiorix#readme",
+  "description": "",
   "dependencies": {
-    "concurrently": "^8.0.1"
+    "bcryptjs": "^3.0.2",
+    "codiorixweb": "file:..",
+    "cors": "^2.8.5",
+    "dashboard": "file:..",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
