@@ -8,7 +8,7 @@ export default function Contact() {
   const handleSubmit = async e=>{
     e.preventDefault();
     try {
-      await api.post('/contacts', form);
+      await api.post('/api/contacts', form);
       toast.success('Message sent!');
       setForm({name:'',email:'',message:''});
     } catch(error) {
