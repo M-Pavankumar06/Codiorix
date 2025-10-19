@@ -2,11 +2,11 @@ export default function About() {
   return (
     <div data-theme="halloween" className="min-h-screen">
       {/* Hero Section */}
-      <div className="hero min-h-[50vh] bg-gradient-to-br from-primary to-secondary rounded-box text-primary-content">
+      <div className="hero min-h-[40vh] md:min-h-[50vh] bg-gradient-to-br from-primary to-secondary rounded-box text-primary-content px-4">
         <div className="hero-content text-center">
           <div className="max-w-md">
-            <h1 className="text-5xl font-bold">About Codiorix</h1>
-            <p className="py-6">
+            <h1 className="text-3xl md:text-5xl font-bold">About Codiorix</h1>
+            <p className="py-4 md:py-6 text-sm md:text-base">
               We transform innovative ideas into exceptional digital products that drive business growth and deliver outstanding user experiences.
             </p>
           </div>
@@ -18,7 +18,7 @@ export default function About() {
       <div className="container mx-auto px-4 py-16">
 
         {/* Company Overview */}
-        <div className="grid md:grid-cols-2 gap-12 mb-20  p-8 rounded-lg">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-16 md:mb-20 p-4 md:p-8 rounded-lg">
           <div className="card bg-base-100 shadow-xl hover:transform hover:-translate-y-2 transition-transform duration-300">
             <div className="card-body bg-black rounded-xl p-8">
               <h2 className="card-title">Our Mission</h2>
@@ -65,8 +65,8 @@ export default function About() {
           </div>
         </div>
 
-        {/* Stats Section */}
-      <div className="stats stats-vertical lg:stats-horizontal lg:justify-between shadow mb-20 w-full bg-gradient-to-r from-gray-50 to-gray-100 p-4 rounded-lg">
+      {/* Stats Section */}
+      <div className="stats stats-vertical md:stats-horizontal md:justify-between shadow mb-16 md:mb-20 w-full bg-gradient-to-r from-gray-50 to-gray-100 p-4 rounded-lg">
         <div className="stat">
           <div className="stat-figure text-blue-600">
             <svg className="inline-block w-8 h-8 stroke-current" fill="none" viewBox="0 0 24 24">
@@ -110,8 +110,8 @@ export default function About() {
 
         {/* Customer Reviews */}
         <div className="mb-16">
-          <h2 className="text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 md:mb-12">What Our Clients Say</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
             <div className="card bg-gradient-to-br from-blue-50 to-blue-100 shadow-xl border-l-4 border-blue-500 hover:transform hover:-translate-y-2 transition-transform duration-300">
               <div className="card-body">
                 <div className="rating mb-4 text-yellow-500">
@@ -169,14 +169,14 @@ export default function About() {
         </div>
 
         {/* Call to Action */}
-        <div className="hero bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 text-white rounded-2xl">
+        <div className="hero bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 text-white rounded-2xl px-4">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Ideas?</h2>
-              <p className="mb-8">
+              <h2 className="text-xl md:text-3xl font-bold mb-4">Ready to Transform Your Ideas?</h2>
+              <p className="mb-6 md:mb-8 text-sm md:text-base">
                 Let's discuss how we can help bring your vision to life with innovative technology solutions.
               </p>
-              <button className="btn btn-white text-purple-600 hover:bg-white hover:text-purple-700">Get Started Today</button>
+              <button className="btn btn-white text-purple-600 hover:bg-white hover:text-purple-700 text-sm md:text-base">Get Started Today</button>
             </div>
           </div>
         </div>

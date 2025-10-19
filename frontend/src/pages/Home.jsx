@@ -11,38 +11,38 @@ export default function Home() {
       <FeatureCards />
 
       {/* Stats */}
-      <section className="container mx-auto px-4 py-12">
-        <div className="stats stats-vertical lg:stats-horizontal shadow bg-base-100 w-full">
+      <section className="container mx-auto px-4 py-8 md:py-12">
+        <div className="stats stats-vertical md:stats-horizontal shadow bg-base-100 w-full">
           <div className="stat">
-            <div className="stat-title">Projects</div>
-            <div className="stat-value text-primary">10+</div>
-            <div className="stat-desc">Delivered on time</div>
+            <div className="stat-title text-sm md:text-base">Projects</div>
+            <div className="stat-value text-primary text-2xl md:text-3xl">10+</div>
+            <div className="stat-desc text-xs md:text-sm">Delivered on time</div>
           </div>
           <div className="stat">
-            <div className="stat-title">Clients</div>
-            <div className="stat-value text-secondary">10+</div>
-            <div className="stat-desc">Across industries</div>
+            <div className="stat-title text-sm md:text-base">Clients</div>
+            <div className="stat-value text-secondary text-2xl md:text-3xl">10+</div>
+            <div className="stat-desc text-xs md:text-sm">Across industries</div>
           </div>
           <div className="stat">
-            <div className="stat-title">Uptime</div>
-            <div className="stat-value text-accent">99.9%</div>
-            <div className="stat-desc">Cloud deployments</div>
+            <div className="stat-title text-sm md:text-base">Uptime</div>
+            <div className="stat-value text-accent text-2xl md:text-3xl">99.9%</div>
+            <div className="stat-desc text-xs md:text-sm">Cloud deployments</div>
           </div>
           <div className="stat">
-            <div className="stat-title">Support</div>
-            <div className="stat-value text-info">24/7</div>
-            <div className="stat-desc">Dedicated team</div>
+            <div className="stat-title text-sm md:text-base">Support</div>
+            <div className="stat-value text-info text-2xl md:text-3xl">24/7</div>
+            <div className="stat-desc text-xs md:text-sm">Dedicated team</div>
           </div>
         </div>
       </section>
 
       {/* Services Preview */}
-      <section className="container mx-auto px-4 pb-16">
-        <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold">What We Do</h2>
-          <p className="opacity-80">End‑to‑end solutions tailored for your business</p>
+      <section className="container mx-auto px-4 pb-12 md:pb-16">
+        <div className="text-center mb-6 md:mb-8">
+          <h2 className="text-2xl md:text-4xl font-bold">What We Do</h2>
+          <p className="opacity-80 text-sm md:text-base">End‑to‑end solutions tailored for your business</p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           <div className="card bg-black border border-base-200 hover:shadow-xl transition">
             <div className="card-body">
               <div className="w-12 h-12 rounded-lg bg-primary text-primary-content grid place-items-center mb-4">
@@ -107,12 +107,12 @@ export default function Home() {
 
       {/* Testimonials */}
       <section className="bg-base-200">
-        <div className="container mx-auto px-4 py-16">
-          <div className="text-center mb-10">
-            <h2 className="text-4xl font-bold">Loved by Clients</h2>
-            <p className="opacity-80">Real feedback from successful engagements</p>
+        <div className="container mx-auto px-4 py-12 md:py-16">
+          <div className="text-center mb-8 md:mb-10">
+            <h2 className="text-2xl md:text-4xl font-bold">Loved by Clients</h2>
+            <p className="opacity-80 text-sm md:text-base">Real feedback from successful engagements</p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             <div className="card bg-base-100 shadow-lg">
               <div className="card-body">
                 <div className="rating mb-3">
@@ -171,11 +171,11 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className="container mx-auto px-4 py-16">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold">Frequently Asked Questions</h2>
+      <section className="container mx-auto px-4 py-12 md:py-16">
+        <div className="text-center mb-6 md:mb-8">
+          <h2 className="text-xl md:text-3xl font-bold">Frequently Asked Questions</h2>
         </div>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           <div className="collapse collapse-arrow bg-base-200">
             <input type="checkbox" />
             <div className="collapse-title text-lg font-medium">How quickly can you start?</div>
@@ -208,34 +208,34 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="container mx-auto px-4 pb-16">
+      <section className="container mx-auto px-4 pb-12 md:pb-16">
         <div className="hero bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 text-white rounded-2xl">
-          <div className="hero-content flex-col lg:flex-row">
-            <div className="flex-1">
-              <h3 className="text-3xl font-bold mb-2">Ready to build something great?</h3>
-              <p className="opacity-90 mb-4">Get a free estimate and a tailored plan for your next project.</p>
-              <div className="flex flex-wrap gap-3">
+          <div className="hero-content flex-col lg:flex-row p-4 md:p-8">
+            <div className="flex-1 text-center lg:text-left">
+              <h3 className="text-xl md:text-3xl font-bold mb-2">Ready to build something great?</h3>
+              <p className="opacity-90 mb-4 text-sm md:text-base">Get a free estimate and a tailored plan for your next project.</p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
                 <a href="/contact" className="btn btn-white text-purple-600 hover:bg-white hover:text-purple-700">Get a Free Quote</a>
                 <a href="/services" className="btn btn-white text-purple-600 hover:bg-white hover:text-purple-700">Explore Services</a>
               </div>
             </div>
-            <div className="flex-1">
-              <div className="bg-base-100 text-base-content rounded-xl p-5 grid grid-cols-2 gap-4">
+            <div className="flex-1 mt-6 lg:mt-0">
+              <div className="bg-base-100 text-base-content rounded-xl p-4 md:p-5 grid grid-cols-2 gap-4">
                 <div>
-                  <div className="text-3xl font-bold text-primary">5+</div>
-                  <div className="text-sm opacity-70">Years experience</div>
+                  <div className="text-2xl md:text-3xl font-bold text-primary">5+</div>
+                  <div className="text-xs md:text-sm opacity-70">Years experience</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-secondary">100+</div>
-                  <div className="text-sm opacity-70">Projects delivered</div>
+                  <div className="text-2xl md:text-3xl font-bold text-secondary">100+</div>
+                  <div className="text-xs md:text-sm opacity-70">Projects delivered</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-accent">50+</div>
-                  <div className="text-sm opacity-70">Satisfied clients</div>
+                  <div className="text-2xl md:text-3xl font-bold text-accent">50+</div>
+                  <div className="text-xs md:text-sm opacity-70">Satisfied clients</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-info">A+</div>
-                  <div className="text-sm opacity-70">Quality rating</div>
+                  <div className="text-2xl md:text-3xl font-bold text-info">A+</div>
+                  <div className="text-xs md:text-sm opacity-70">Quality rating</div>
                 </div>
               </div>
             </div>

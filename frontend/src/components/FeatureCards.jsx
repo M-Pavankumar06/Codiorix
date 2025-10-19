@@ -5,12 +5,12 @@ const features = [
 ];
 export default function FeatureCards() {
   return (
-    <div className="flex flex-wrap gap-4 justify-center my-8">
+    <div className="flex flex-wrap gap-4 justify-center my-8 px-4">
       {features.map(f => (
-        <div key={f.title} className="card bg-base-200 shadow-xl w-72">
+        <div key={f.title} className="card bg-base-200 shadow-xl w-full sm:w-80 md:w-72">
           <div className="card-body">
-            <h2 className="card-title">{f.icon} {f.title}</h2>
-            <p>{f.desc}</p>
+            <h2 className="card-title text-sm md:text-base">{f.icon} {f.title}</h2>
+            <p className="text-sm md:text-base">{f.desc}</p>
           </div>
         </div>
       ))}

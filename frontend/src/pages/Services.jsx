@@ -2,11 +2,11 @@ export default function Services() {
   return (
     <div data-theme="halloween" className="min-h-screen">
       {/* Hero Section */}
-      <div className="hero min-h-[40vh] bg-gradient-to-br from-primary to-secondary rounded-box">
+      <div className="hero min-h-[30vh] md:min-h-[40vh] bg-gradient-to-br from-primary to-secondary rounded-box px-4">
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="text-5xl font-bold mb-4 text-primary-content">Our Services</h1>
-            <p className="text-xl text-primary-content">
+            <h1 className="text-3xl md:text-5xl font-bold mb-4 text-primary-content">Our Services</h1>
+            <p className="text-lg md:text-xl text-primary-content">
               Comprehensive digital solutions tailored to elevate your business and engage your audience
             </p>
           </div>
@@ -15,7 +15,7 @@ export default function Services() {
 
       <div className="container mx-auto px-4 py-16">
         {/* Main Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12 md:mb-16">
           {/* Web Development */}
           <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all hover:transform hover:-translate-y-2 hover:scale-105 border border-primary">
             <figure className="px-10 pt-10">
@@ -174,13 +174,13 @@ export default function Services() {
         </div>
 
         {/* Process Section */}
-        <div className="divider my-16"></div>
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">Our Development Process</h2>
-          <p className="text-lg opacity-80">A proven methodology to deliver exceptional results</p>
+        <div className="divider my-12 md:my-16"></div>
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4">Our Development Process</h2>
+          <p className="text-base md:text-lg opacity-80">A proven methodology to deliver exceptional results</p>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-12 md:mb-16">
           <div className="text-center">
             <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-primary-content">1</span>
@@ -212,14 +212,14 @@ export default function Services() {
         </div>
 
         {/* Call to Action */}
-        <div className="hero bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 text-white rounded-2xl">
+        <div className="hero bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 text-white rounded-2xl px-4">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Ideas?</h2>
-              <p className="mb-8">
+              <h2 className="text-xl md:text-3xl font-bold mb-4">Ready to Transform Your Ideas?</h2>
+              <p className="mb-6 md:mb-8 text-sm md:text-base">
                 Let's discuss how we can help bring your vision to life with innovative technology solutions.
               </p>
-              <button className="btn btn-white text-purple-600 hover:bg-white hover:text-purple-700">Get Started Today</button>
+              <button className="btn btn-white text-purple-600 hover:bg-white hover:text-purple-700 text-sm md:text-base">Get Started Today</button>
             </div>
           </div>
         </div>
