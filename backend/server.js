@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000 ;
 const __dirname = path.resolve();
 const corsOptions = {
-   orgin: "http://localhost:5173",
+   orgin: "https://codiorixweb.onrender.com/",
    Credentials: true,
 }
 app.use(cors(corsOptions));
