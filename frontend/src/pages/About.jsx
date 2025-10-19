@@ -38,26 +38,26 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-6">Our Expertise</h2>
             <div className="grid grid-cols-2 gap-4">
               <div className="card bg-gradient-to-br from-blue-50 to-blue-100 shadow-lg border-l-4 border-blue-500 hover:transform hover:-translate-y-2 transition-transform duration-300">
-                <div className="card-body">
-                  <h3 className="card-title text-blue-700">Web Development</h3>
+                <div className="card-body text-center">
+                  <h3 className="card-title text-blue-700 justify-center">Web Development</h3>
                   <p className="text-blue-600">Modern, responsive web applications</p>
                 </div>
               </div>
               <div className="card bg-gradient-to-br from-green-50 to-green-100 shadow-lg border-l-4 border-green-500 hover:transform hover:-translate-y-2 transition-transform duration-300">
-                <div className="card-body">
-                  <h3 className="card-title text-green-700">Mobile Apps</h3>
+                <div className="card-body text-center">
+                  <h3 className="card-title text-green-700 justify-center">Mobile Apps</h3>
                   <p className="text-green-600">Native and cross-platform solutions</p>
                 </div>
               </div>
               <div className="card bg-gradient-to-br from-purple-50 to-purple-100 shadow-lg border-l-4 border-purple-500 hover:transform hover:-translate-y-2 transition-transform duration-300">
-                <div className="card-body">
-                  <h3 className="card-title text-purple-700">UI/UX Design</h3>
+                <div className="card-body text-center">
+                  <h3 className="card-title text-purple-700 justify-center">UI/UX Design</h3>
                   <p className="text-purple-600">User-centered design experiences</p>
                 </div>
               </div>
               <div className="card bg-gradient-to-br from-orange-50 to-orange-100 shadow-lg border-l-4 border-orange-500 hover:transform hover:-translate-y-2 transition-transform duration-300">
-                <div className="card-body">
-                  <h3 className="card-title text-orange-700">Cloud Solutions</h3>
+                <div className="card-body text-center">
+                  <h3 className="card-title text-orange-700 justify-center">Cloud Solutions</h3>
                   <p className="text-orange-600">Scalable cloud infrastructure</p>
                 </div>
               </div>
